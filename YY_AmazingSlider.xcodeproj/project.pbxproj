@@ -13,6 +13,10 @@
 		2FE733DB1DDC5AEE00F31226 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FE733D91DDC5AEE00F31226 /* Main.storyboard */; };
 		2FE733DD1DDC5AEE00F31226 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FE733DC1DDC5AEE00F31226 /* Assets.xcassets */; };
 		2FE733E01DDC5AEE00F31226 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FE733DE1DDC5AEE00F31226 /* LaunchScreen.storyboard */; };
+		2FE733E91DDC5B3300F31226 /* SliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE733E81DDC5B3300F31226 /* SliderView.m */; };
+		2FE733ED1DDC607F00F31226 /* img01.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FE733EA1DDC607F00F31226 /* img01.png */; };
+		2FE733EE1DDC607F00F31226 /* img02.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FE733EB1DDC607F00F31226 /* img02.png */; };
+		2FE733EF1DDC607F00F31226 /* img03.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FE733EC1DDC607F00F31226 /* img03.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,11 @@
 		2FE733DC1DDC5AEE00F31226 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FE733DF1DDC5AEE00F31226 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2FE733E11DDC5AEE00F31226 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FE733E71DDC5B3300F31226 /* SliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SliderView.h; sourceTree = "<group>"; };
+		2FE733E81DDC5B3300F31226 /* SliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SliderView.m; sourceTree = "<group>"; };
+		2FE733EA1DDC607F00F31226 /* img01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img01.png; sourceTree = "<group>"; };
+		2FE733EB1DDC607F00F31226 /* img02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img02.png; sourceTree = "<group>"; };
+		2FE733EC1DDC607F00F31226 /* img03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img03.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +67,15 @@
 		2FE733CF1DDC5AEE00F31226 /* YY_AmazingSlider */ = {
 			isa = PBXGroup;
 			children = (
+				2FE733EA1DDC607F00F31226 /* img01.png */,
+				2FE733EB1DDC607F00F31226 /* img02.png */,
+				2FE733EC1DDC607F00F31226 /* img03.png */,
 				2FE733D31DDC5AEE00F31226 /* AppDelegate.h */,
 				2FE733D41DDC5AEE00F31226 /* AppDelegate.m */,
 				2FE733D61DDC5AEE00F31226 /* ViewController.h */,
 				2FE733D71DDC5AEE00F31226 /* ViewController.m */,
+				2FE733E71DDC5B3300F31226 /* SliderView.h */,
+				2FE733E81DDC5B3300F31226 /* SliderView.m */,
 				2FE733D91DDC5AEE00F31226 /* Main.storyboard */,
 				2FE733DC1DDC5AEE00F31226 /* Assets.xcassets */,
 				2FE733DE1DDC5AEE00F31226 /* LaunchScreen.storyboard */,
@@ -110,6 +124,7 @@
 				TargetAttributes = {
 					2FE733CC1DDC5AEE00F31226 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 7JYZV825QN;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -138,7 +153,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FE733E01DDC5AEE00F31226 /* LaunchScreen.storyboard in Resources */,
+				2FE733EE1DDC607F00F31226 /* img02.png in Resources */,
+				2FE733EF1DDC607F00F31226 /* img03.png in Resources */,
 				2FE733DD1DDC5AEE00F31226 /* Assets.xcassets in Resources */,
+				2FE733ED1DDC607F00F31226 /* img01.png in Resources */,
 				2FE733DB1DDC5AEE00F31226 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FE733D81DDC5AEE00F31226 /* ViewController.m in Sources */,
+				2FE733E91DDC5B3300F31226 /* SliderView.m in Sources */,
 				2FE733D51DDC5AEE00F31226 /* AppDelegate.m in Sources */,
 				2FE733D21DDC5AEE00F31226 /* main.m in Sources */,
 			);
@@ -270,6 +289,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7JYZV825QN;
 				INFOPLIST_FILE = YY_AmazingSlider/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.poplary.YY-AmazingSlider";
@@ -281,6 +301,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7JYZV825QN;
 				INFOPLIST_FILE = YY_AmazingSlider/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.poplary.YY-AmazingSlider";
@@ -307,6 +328,7 @@
 				2FE733E61DDC5AEE00F31226 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
